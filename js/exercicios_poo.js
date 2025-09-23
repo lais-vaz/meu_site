@@ -71,22 +71,24 @@
 
 
 //CLASSE CARRO
-class Carro {
-     constructor(marca, modelo, combustivel){
-          this.marca = marca;
-          this.modelo = modelo;
-          this.combustivel = combustivel;
-     }
-     abastecer(litros){
-          this.combustivel += litros
-          return this.combustivel
-}
-     dirigir(Km){
-          this.combustivel -= (Km / 10)
-     }
-}
-let = carro1 = new Carro("Mitsubishi", "ASX", 10)
-carro1.abastecer (20)
-console.log(carro1.combustivel)
-carro1.dirigir(80)
-console.log(carro1.combustivel)
+// class Carro {
+//      constructor(marca, modelo, combustivel){
+//           this.marca = marca;
+//           this.modelo = modelo;
+//           this.combustivel = combustivel;
+//      }
+//      abastecer(litros){
+//           this.combustivel += litros
+//           return this.combustivel
+// }
+//      dirigir(Km){
+//           this.combustivel -= (Km / 10)
+//      }
+// }
+// let = carro1 = new Carro("Mitsubishi", "ASX", 10)
+// carro1.abastecer (20)
+// console.log(carro1.combustivel)
+// carro1.dirigir(80)
+// console.log(carro1.combustivel)
+
+
