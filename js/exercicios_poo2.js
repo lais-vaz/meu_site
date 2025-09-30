@@ -25,25 +25,25 @@
 
 
 ///2///
-// class Funcionario {
-//     constructor(nome, salario){
-//         this.nome = nome
-//         this.salario = salario
-//     }           
-// }
+class Funcionario {
+    constructor(nome, salario){
+        this.nome = nome
+        this.salario = salario
+    }           
+}
 
-// class Gerente extends Funcionario{
-//     constructor(nome, salario, bonus){
-//         super (nome, salario)
-//         this.bonus= bonus
-// }
-// }
-// let func = new Funcionario ('Marcia', 2500)
-// let geren = new Gerente ('Rosana', 3200, "70%" )
+class Gerente extends Funcionario{
+    constructor(nome, salario, bonus){
+        super (nome, salario)
+        this.bonus= bonus
+}
+}
+let func = new Funcionario ('Marcia', 2500)
+let geren = new Gerente ('Rosana', 3200, "70%" )
 
-// console.log (`O funcionario ${func.nome} tem um salario de ${func.salario}.`)
+console.log (`O funcionario ${func.nome} tem um salario de ${func.salario}.`)
 
-// console.log (`o gerente ${geren.nome} tem um salario de ${geren.salario} e possui um atributo de ${geren.bonus}.`)
+console.log (`o gerente ${geren.nome} tem um salario de ${geren.salario} e possui um atributo de ${geren.bonus}.`)
 
 
 
